@@ -9,38 +9,25 @@ body {
  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main .titulo {
-    display: flex;
-    width: 100%;
-    height: 70px;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
+.contenedor {
+    width: 500px;
+    margin: 150px auto;
+    position: relative;
+    overflow: hidden;
 }
 
-main .titulo hr {
-    width: 5px;
-    color: #000;
-}
-
-
-main .contenedor {
-    width: 80%;
-    height: auto;
-}
-
-main .contenedor img {
+.contenedor img {
     width: 100%;
     height: auto;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
-main .contenedor img:hover {
+.contenedor:hover img {
     transform: scale(1.09);
 }
 
-main .contenedor .content {
-    background: rgba(0, 0, 0, 0.7);
+.contenedor .content {
+    background: rgba( 0, 0, 0, 0.7);
     position: absolute;
     top: -100%;
     left: 0;
@@ -50,13 +37,18 @@ main .contenedor .content {
     box-sizing: border-box;
 }
 
-main .contenedor .content h3{
+.content h3 {
     text-align: center;
     font-size: 25px;
     border-bottom: 1px solid #808080;
-    padding: 0 10px 20px 10px;
+    padding: 0 10px 20px 10px;    
 }
 
-main .contenedor .content p {
+.content p {
     padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.contenedor:hover .content {
+    top: 0;
 }
