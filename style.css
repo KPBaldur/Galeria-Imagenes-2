@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ width: 90%;
+ font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .titulo {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .titulo hr {
+    width: 5px;
+    color: #000;
+}
+
