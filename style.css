@@ -23,3 +23,40 @@ main .titulo hr {
     color: #000;
 }
 
+
+main .contenedor {
+    width: 80%;
+    height: auto;
+}
+
+main .contenedor img {
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+}
+
+main .contenedor img:hover {
+    transform: scale(1.09);
+}
+
+main .contenedor .content {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 100%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+main .contenedor .content h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 0 10px 20px 10px;
+}
+
+main .contenedor .content p {
+    padding: 0px 20px 15px 20px;
+}
