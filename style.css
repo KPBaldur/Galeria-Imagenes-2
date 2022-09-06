@@ -9,6 +9,14 @@ body {
  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    vertical-align: auto;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
 .contenedor {
     width: 500px;
     margin: 150px auto;
